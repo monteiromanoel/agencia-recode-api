@@ -18,17 +18,17 @@ export default function Content() {
                     <h5 className="card-title fs-3 text-decoration-underline">Clientes</h5>
                     <p className="card-text">
                       Acesse dados referentes aos clientes. Atualize, delete ou
-                      cadastre novos
+                      cadastre novos clientes
                     </p>
                     <div className="d-flex justify-content-center">
                       <a
-                        href="/Agencia-Viagem-V2/ListarUsuarios"
+                        href="/cliente/PageClientes"
                         className={`${styles.btn} btn mx-2`}
                       >
                         Lista de Clientes
                       </a>
                       <a
-                        href="./CadastroCliente.jsp"
+                        href="/cliente/add-client"
                         className={`${styles.btn} btn mx-2`}
                       >
                         Cadastro de Cliente
@@ -43,17 +43,17 @@ export default function Content() {
                     <h5 className="card-title fs-3 text-decoration-underline">Destinos</h5>
                     <p className="card-text">
                       Acesse dados referentes aos destinos. Atualize, delete ou
-                      cadastre novos
+                      cadastre novos destinos
                     </p>
                     <div className="d-flex justify-content-center">
                       <a
-                        href="/Agencia-Viagem-V2/ListarDestinos"
+                        href="/destino/PageDestinos"
                         className={`${styles.btn} btn mx-2`}
                       >
                         Lista de Destinos
                       </a>
                       <a
-                        href="./CadastroDestino.jsp"
+                        href="/destino/add-destino"
                         className={`${styles.btn} btn mx-2`}
                       >
                         Cadastro de Destino
@@ -69,18 +69,18 @@ export default function Content() {
                   <div className="card-body">
                     <h5 className="card-title fs-3 text-decoration-underline">Reservas</h5>
                     <p className="card-text">
-                      Acesse dados referentes às reservas. Atualize, delete ou
-                      cadastre novos
+                      Acesse dados referentes às reservas. Delete ou
+                      cadastre novas reservas
                     </p>
                     <div className="d-flex justify-content-center">
                       <a
-                        href="/Agencia-Viagem-V2/ListarReservas"
+                        href="/reserva/PageReservas"
                         className={`${styles.btn} btn mx-2`}
                       >
                         Lista de Reservas
                       </a>
                       <a
-                        href="/Agencia-Viagem-V2/CadastroReservaAdm"
+                        href="/reserva/add-reserva"
                         className={`${styles.btn} btn mx-2`}
                       >
                         Cadastro de Reserva

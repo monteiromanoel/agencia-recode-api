@@ -12,7 +12,7 @@ const AddDestino = () => {
         preco: "",
         descricao_curta: "",
         descricao_longa: "",
-        tipo_pacote: "",
+        tipo_pacote: "convencional",
         adicional: "",
         imagem: "",
         diaIda: "",
@@ -251,9 +251,9 @@ const AddDestino = () => {
                             <label className="form-label" htmlFor="tipo_pacote">
                                 Tipo do Pacote{" "}
                             </label>{" "}
-                            <select id="tipo_pacote" className="form-control form-select" name="tipo_pacote" value={newDestino.tipo_pacote} onChange={handleInputChange}>
-                                <option value="promocional" selected>promocional</option>
-                                <option value="convencional">convencional</option>
+                            <select id="tipo_pacote" className="form-control form-select" name="tipo_pacote" value={newDestino.tipo_pacote || ''} onChange={handleInputChange}>
+                                <option value="promocional">Promocional</option>
+                                <option value="convencional">Convencional</option>
                             </select>
                         </div>
                     </div>
