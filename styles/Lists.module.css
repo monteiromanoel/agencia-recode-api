@@ -1,0 +1,21 @@
+.icones {
+    cursor: pointer;
+}
+
+.icones:hover {
+    color: #3B325B;
+}
+
+.activeIcon {
+    background-color: white;
+    color: #3B325B;
+}
+
+.acoes {
+    cursor: pointer;
+}
+
+
+.acoes:hover {
+    color: blue!important;
+}

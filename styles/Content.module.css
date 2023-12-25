@@ -1,0 +1,13 @@
+.card {
+    background-color: #5397A6!important;
+    color: rgb(255, 255, 255)!important;
+}
+
+.btn {
+    background-color: #295773!important;
+    color: white!important;  
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
