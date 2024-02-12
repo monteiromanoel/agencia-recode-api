@@ -9,7 +9,7 @@ import TableClientes from './TableClientes';
 import CardClientes from './CardClientes';
 
 
-export default function listaClientes() {
+export default function ListaClientes() {
   const [mostrarTabela, setMostrarTabela] = useState(true);
 
   const handleClickIconeLista = () => {

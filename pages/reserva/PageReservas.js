@@ -9,7 +9,7 @@ import TableReservas from './TableReservas';
 import CardReservas from './CardReservas';
 
 
-export default function listaReservas() {
+export default function ListaReservas() {
   const [mostrarTabela, setMostrarTabela] = useState(true);
 
   const handleClickIconeLista = () => {

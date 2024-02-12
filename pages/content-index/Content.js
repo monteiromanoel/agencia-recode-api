@@ -1,6 +1,7 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css";
 import styles from "@/styles/Content.module.css"
+import Link from 'next/link';
 
 export default function Content() {
   return (
@@ -21,18 +22,18 @@ export default function Content() {
                       cadastre novos clientes
                     </p>
                     <div className="d-flex justify-content-center">
-                      <a
-                        href="/cliente/PageClientes"
+                      <Link
+                        href={`/cliente/PageClientes`}
                         className={`${styles.btn} btn mx-2`}
                       >
                         Lista de Clientes
-                      </a>
-                      <a
-                        href="/cliente/add-client"
+                      </Link>
+                      <Link
+                        href={`/cliente/add-client`}
                         className={`${styles.btn} btn mx-2`}
                       >
                         Cadastro de Cliente
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -46,18 +47,18 @@ export default function Content() {
                       cadastre novos destinos
                     </p>
                     <div className="d-flex justify-content-center">
-                      <a
-                        href="/destino/PageDestinos"
+                      <Link
+                        href={`/destino/PageDestinos`}
                         className={`${styles.btn} btn mx-2`}
                       >
                         Lista de Destinos
-                      </a>
-                      <a
-                        href="/destino/add-destino"
+                      </Link>
+                      <Link
+                        href={`/destino/add-destino`}
                         className={`${styles.btn} btn mx-2`}
                       >
                         Cadastro de Destino
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -73,18 +74,18 @@ export default function Content() {
                       cadastre novas reservas
                     </p>
                     <div className="d-flex justify-content-center">
-                      <a
-                        href="/reserva/PageReservas"
+                      <Link
+                        href={`/reserva/PageReservas`}
                         className={`${styles.btn} btn mx-2`}
                       >
                         Lista de Reservas
-                      </a>
-                      <a
-                        href="/reserva/add-reserva"
+                      </Link>
+                      <Link
+                        href={`/reserva/add-reserva`}
                         className={`${styles.btn} btn mx-2`}
                       >
                         Cadastro de Reserva
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

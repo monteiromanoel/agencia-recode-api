@@ -9,7 +9,7 @@ import TableDestinos from './TableDestinos';
 import CardDestinos from './CardDestinos';
 
 
-export default function listaDestinos() {
+export default function ListaDestinos() {
   const [mostrarTabela, setMostrarTabela] = useState(true);
 
   const handleClickIconeLista = () => {
