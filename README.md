@@ -8,6 +8,8 @@
 - JavaScript
 - Bootstrap
 - JQuery
+- Biblioteca de ícones FontAwesome
+- Editor de texto HTML TinyMCE
   </br>
   
 ### Back-End
